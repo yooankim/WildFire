@@ -3,7 +3,7 @@ services:
     name: WildFire
     env: python
     plan: free
-    rootDir: .
+    rootDir: app  # 'app' 폴더로 수정
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
     repo: https://github.com/yooankim/WildFire
