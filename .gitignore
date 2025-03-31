@@ -1,0 +1,5 @@
+app/*.shp
+app/*.shx
+app/*.dbf
+app/*.prj
+app/TB_FGDI_FS_JJ100.*
